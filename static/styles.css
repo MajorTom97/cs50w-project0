@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+.sh-dropcaps-full-square-tale {
+  background-color: #5c5cff !important;
+  overflow: visible;
+  color: #fff;
+  font-family: 'Rampart One', cursive;
+  font-weight: 900;
+  line-height: 56px !important;
+  font-size: 38px !important;
+  width: 56px;
+  height: 56px;
+  display: inline-block;
+  text-align: center;
+  /*float:;*/
+  margin-right: 15px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  position: relative;
+  border-radius: 4px;
+}
+
+body {
+  color: black;
+  font-size: black;
+  font-family: 'Rampart One', cursive;
+}
+
+.jumbotron {
+  background-image: url(../img/rotoscopia.gif);
+  max-width: 100%;
+}
+
+.footer {
+  overflow: hidden;
+  margin-top: 0;
+  background-color: #24262b;
+  padding: 70px 0;
+}
+/*# sourceMappingURL=styles.css.map */
