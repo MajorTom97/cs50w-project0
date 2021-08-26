@@ -1,15 +1,33 @@
 $color: white;
-//$bgcolor: rgb(194, 183, 183);
 $textcolor: black;
 $fontsize: 14px;
 $bgimage:url(../img/rotoscopia.gif);
 $jumbotext: rgb(206, 63, 63);
-//$bgimagebody: url('../img/EA.jpg');
+$background-image: url(../img/35mm.jpg);
 
 
-%align {
+
+%align{
     text-align: center;
 }
+
+
+body {
+    background-color: tan;
+  }
+  
+ 
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: goldenrod;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olivedrab;
+    }
+  }
 
 h1{
     color: $color;
@@ -36,25 +54,25 @@ h1{
     position: relative;
     border-radius: 4px;
 }
-//#carousel{
-    
-//}
+
 body{
-    //background-image: $bgimagebody;
     color: $textcolor;
     font-size: $textcolor;
     font-family: 'Rampart One', cursive;
+    .paragraph2{
+        color: blue;
+
+    }
 }
 
 p {
     @extend %align;
     $textcolor: $jumbotext;
-    //&:nth-of-type(odd) {
-        //background-color: $bgcolor;
-    //}
-    //&:nth-of-type(even) {
-        //background-color: $bgcolor;
-   // }
+}
+.paragraph1{
+    @extend %align;
+    color: red;
+    
 }
 
 .jumbotron{
@@ -68,4 +86,16 @@ p {
     margin-top: 0;
     background-color: #24262b;
     padding: 70px 0;
+    justify-content: center;
 }
+
+#footer-text{
+     position: relative;
+     left: 20%;
+     @extend %align;
+ }
+
+ .footer-column{
+     width: 100%;
+     @extend %align;
+ }
